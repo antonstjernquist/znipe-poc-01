@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <div className="grid grid-cols-2 gap-4">
+      {/** @ts-ignore */}
       <znipe-single-view-player
         theme="faceit"
         data-testid="watch-player"
@@ -16,8 +17,9 @@ export default function Home() {
         src="znipe:player:e9e6026f-6b21-4f4b-8496-130d904ab679"
         context="znipe:match:680c677a1ec24d51ecac98a5:1"
         language-manager-id="sv"
-      ></znipe-single-view-player>
+      />
 
+      {/** @ts-ignore */}
       <znipe-single-view-player
         theme="faceit"
         data-testid="watch-player"
@@ -33,8 +35,9 @@ export default function Home() {
         src="znipe:player:d72cf49d-dce9-495b-8ef8-b6ac48fb28e9"
         context="znipe:match:680c677a1ec24d51ecac98a5:2"
         language-manager-id="sv"
-      ></znipe-single-view-player>
+      />
 
+      {/** @ts-ignore */}
       <znipe-single-view-player
         theme="faceit"
         data-testid="watch-player"
@@ -50,8 +53,9 @@ export default function Home() {
         src="znipe:player:d72cf49d-dce9-495b-8ef8-b6ac48fb28e9"
         context="znipe:match:680c677a1ec24d51ecac98a5:2"
         language-manager-id="sv"
-      ></znipe-single-view-player>
+      />
 
+      {/** @ts-ignore */}
       <znipe-single-view-player
         theme="faceit"
         data-testid="watch-player"
@@ -67,7 +71,7 @@ export default function Home() {
         src="znipe:player:d72cf49d-dce9-495b-8ef8-b6ac48fb28e9"
         context="znipe:match:680c677a1ec24d51ecac98a5:2"
         language-manager-id="sv"
-      ></znipe-single-view-player>
+      />
     </div>
   );
 }
